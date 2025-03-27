@@ -5,10 +5,10 @@
         xsi:type="MailApp">
     <Id>967b0d7e-4057-4699-8c48-22159f4e7b2b</Id>
     <Version>1.0.0.0</Version>
-    <ProviderName>Spotlight.AI</ProviderName>
+    <ProviderName>TestAI</ProviderName>
     <DefaultLocale>en-US</DefaultLocale>
-    <DisplayName DefaultValue="Spotlight Email Analyzer" />
-    <Description DefaultValue="Analyze emails with Spotlight.AI" />
+    <DisplayName DefaultValue="Test Email Analyzer" />
+    <Description DefaultValue="Analyze emails with Test.AI" />
     <IconUrl DefaultValue="https://raw.githubusercontent.com/vercikemper/test-repo/refs/heads/master/src/assets/icon-80.png" />
     <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/vercikemper/test-repo/refs/heads/master/src/assets/icon-80.png" />
     <SupportUrl DefaultValue="https://support.google.com/" />
