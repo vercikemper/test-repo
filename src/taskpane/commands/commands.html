@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Spotlight.AI - Commands</title>
+
+    <!-- Office JavaScript API -->
+    <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
+
+    <script type="text/javascript">
+        // Make sure Office is initialized
+        Office.onReady(function(info) {
+            // Office is ready
+            if (info.host === Office.HostType.Outlook) {
+                // Initialization code goes here
+            }
+        });
+
+        // Function to be called from the ribbon button
+        function performActionFromRibbon(event) {
+            // Perform whatever action is needed when the ribbon button is clicked
+            Office.context.ui.messageParent("actionCompleted");
+
+            // You must call event.completed() at the end of a function called from a ribbon button
+            event.completed();
+        }
+    </script>
+</head>
+
+<body>
+<!-- This is a hidden page that hosts the ribbon button functions -->
+<!-- It's not meant to be displayed to the user -->
+</body>
+</html>

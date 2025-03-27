@@ -3,14 +3,14 @@
         xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:type="MailApp">
-    <Id>YOUR-UNIQUE-GUID-HERE</Id>
+    <Id>967b0d7e-4057-4699-8c48-22159f4e7b2b</Id>
     <Version>1.0.0.0</Version>
     <ProviderName>Spotlight.AI</ProviderName>
     <DefaultLocale>en-US</DefaultLocale>
     <DisplayName DefaultValue="Spotlight Email Analyzer" />
     <Description DefaultValue="Analyze emails with Spotlight.AI" />
-    <IconUrl DefaultValue="https://your-website.com/assets/icon-80.png" />
-    <HighResolutionIconUrl DefaultValue="https://your-website.com/assets/icon-80.png" />
+    <IconUrl DefaultValue="https://raw.githubusercontent.com/vercikemper/test-repo/refs/heads/master/src/assets/icon-80.png" />
+    <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/vercikemper/test-repo/refs/heads/master/src/assets/icon-80.png" />
     <SupportUrl DefaultValue="https://support.google.com/" />
 
     <Hosts>
@@ -26,7 +26,7 @@
     <FormSettings>
         <Form xsi:type="ItemRead">
             <DesktopSettings>
-                <SourceLocation DefaultValue="https://your-website.com/taskpane.html" />
+                <SourceLocation DefaultValue="https://raw.githubusercontent.com/vercikemper/test-repo/refs/heads/master/src/taskpane/taskpane.html" />
                 <RequestedHeight>250</RequestedHeight>
             </DesktopSettings>
         </Form>
@@ -79,20 +79,20 @@
 
         <Resources>
             <bt:Images>
-                <bt:Image id="Icon.16x16" DefaultValue="https://your-website.com/assets/icon-16.png" />
-                <bt:Image id="Icon.32x32" DefaultValue="https://your-website.com/assets/icon-32.png" />
-                <bt:Image id="Icon.80x80" DefaultValue="https://your-website.com/assets/icon-80.png" />
+                <bt:Image id="Icon.16x16" DefaultValue="https://raw.githubusercontent.com/vercikemper/test-repo/refs/heads/master/src/assets/icon-16.png" />
+                <bt:Image id="Icon.32x32" DefaultValue="https://raw.githubusercontent.com/vercikemper/test-repo/refs/heads/master/src/assets/icon-32.png" />
+                <bt:Image id="Icon.80x80" DefaultValue="https://raw.githubusercontent.com/vercikemper/test-repo/refs/heads/master/src/assets/icon-80.png" />
             </bt:Images>
             <bt:Urls>
                 <bt:Url id="Commands.Url" DefaultValue="https://your-website.com/commands.html" />
-                <bt:Url id="Taskpane.Url" DefaultValue="https://your-website.com/taskpane.html" />
+                <bt:Url id="Taskpane.Url" DefaultValue="https://raw.githubusercontent.com/vercikemper/test-repo/refs/heads/master/src/taskpane/taskpane.html" />
             </bt:Urls>
             <bt:ShortStrings>
-                <bt:String id="GroupLabel" DefaultValue="Spotlight.AI" />
+                <bt:String id="GroupLabel" DefaultValue="AI" />
                 <bt:String id="TaskpaneButton.Label" DefaultValue="Analyze Email" />
             </bt:ShortStrings>
             <bt:LongStrings>
-                <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to analyze this email with Spotlight.AI" />
+                <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to analyze this email with AI" />
             </bt:LongStrings>
         </Resources>
     </VersionOverrides>
