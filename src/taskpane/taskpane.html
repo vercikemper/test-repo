@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Spotlight Email Analyzer</title>
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+    <script src="taskpane.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="taskpane.css" />
+</head>
+
+<body>
+<div id="content-header">
+    <div class="padding">
+        <h1>Spotlight Email Analyzer</h1>
+    </div>
+</div>
+<div id="content-main">
+    <div class="padding">
+        <p>Analyze the current email to extract insights and automate workflows.</p>
+
+        <div class="settings-section">
+            <h2>Email Analysis Settings</h2>
+            <div class="setting">
+                <input type="checkbox" id="analyze-all" name="analyze-all">
+                <label for="analyze-all">Analyze all emails in this conversation</label>
+            </div>
+            <div class="setting">
+                <input type="checkbox" id="auto-analyze" name="auto-analyze">
+                <label for="auto-analyze">Automatically analyze emails from this sender</label>
+            </div>
+        </div>
+
+        <div class="action-section">
+            <button id="analyze-button" class="ms-Button ms-Button--primary">
+                <span class="ms-Button-label">Analyze Email</span>
+            </button>
+        </div>
+
+        <div id="result-section" style="display: none;">
+            <h2>Analysis Results</h2>
+            <div id="analysis-results"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
